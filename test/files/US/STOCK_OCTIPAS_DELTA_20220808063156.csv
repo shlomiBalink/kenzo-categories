@@ -1,0 +1,6 @@
+store;product_id;quantity;quantity_in_transit;quantity_defective;quantity_reserved;quantity_to_return
+123451;1923370112345;1;0;;;
+123452;1923370112345;2;0;;;
+123453;1923370112345;3;0;;;
+123454;1923370112345;4;0;;;
+123455;1923370112345;5;0;;;

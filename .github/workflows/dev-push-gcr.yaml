@@ -1,0 +1,79 @@
+name: DEV - Build & Push GCR
+
+on:
+  push:
+    branches:
+      - develop
+  workflow_dispatch:
+
+env:
+  IMAGE: europe-west4-docker.pkg.dev/grp-dev-fred-prj-clientelingcb/apps/stocks-runner
+  
+  CLIENTELING_GITHUB_TOKEN: ${{ secrets.CLIENTELING_GITHUB_TOKEN }}
+  REGISTRY_HOSTNAME: europe-west4-docker.pkg.dev
+  GOOGLE_PROJECT_ID: grp-dev-fred-prj-clientelingcb
+  GOOGLE_PROJECT_NUMBER: 246106632354
+  GOOGLE_WORKLOAD_IDENTITY_POOL: github-pool-bdb7
+  GOOGLE_WORKLOAD_IDENTITY_PROVIDER: github-jwt-provider-4d36
+  GOOGLE_SERVICE_ACCOUNT_EMAIL: clienteling-tech@grp-dev-fred-prj-clientelingcb.iam.gserviceaccount.com
+  SERVICE_NAME: stocks-runner
+
+jobs:
+  build-push-docker-image:
+    permissions:
+      id-token: write
+      contents: read
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: 'true'
+          token: ${{ env.CLIENTELING_GITHUB_TOKEN }}
+
+      - id: 'auth'
+        name: 'Authenticate to Google Cloud'
+        uses: 'google-github-actions/auth@v0.6.0'
+        with:
+          token_format: 'access_token'
+          workload_identity_provider: 'projects/${{ env.GOOGLE_PROJECT_NUMBER }}/locations/global/workloadIdentityPools/${{ env.GOOGLE_WORKLOAD_IDENTITY_POOL }}/providers/${{ env.GOOGLE_WORKLOAD_IDENTITY_PROVIDER }}'
+          service_account: ${{ env.GOOGLE_SERVICE_ACCOUNT_EMAIL }}
+
+      - uses: jgierer12/npm-auth-gpr@v1
+        with:
+          token: ${{ env.CLIENTELING_GITHUB_TOKEN }}
+
+      - name: Download and Configure gcloud
+        uses: google-github-actions/setup-gcloud@v0.6.0
+
+      # Configure docker to use the gcloud command-line tool as a credential helper
+      - name: Login to GCR registry
+        run: |
+          gcloud auth configure-docker ${{ env.REGISTRY_HOSTNAME }}
+
+      # Required by docker/build-push-action@v2
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v1
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+
+      # Create docker tag prefix
+      # We have to create a sortable docker tag to allow flux2 to dynamically find and update manifests with the latest version.
+      - name: Docker tag prefix
+        id: docker-tag
+        run: |
+          export TAG="git-$(echo -n ${{ github.sha }} | head -c 7)-${{ github.run_number }}"
+          echo "::set-output name=image-tag::$TAG"
+
+      # Build the Docker image
+      # We add github.run_number at the end of the tag because this ID is incrementable and allow fluxCD to sort the images to find the latest one.
+      # https://github.com/fluxcd/flux2/blob/6416673c3079958adc6ceb2d7d14a729176d410f/docs/guides/sortable-image-tags.md
+      - name: Build and publish container image with tag
+        uses: docker/build-push-action@v2
+        with:
+          push: true
+          context: .
+          file: Dockerfile
+          tags: |
+            ${{ env.IMAGE }}:${{ steps.docker-tag.outputs.image-tag }}
