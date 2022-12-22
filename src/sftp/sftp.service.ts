@@ -55,4 +55,12 @@ export class SftpService {
     await this.sftpClient.closeConnection();
     this.loggerService.debug('Connection closed successfully');
   }
+
+  async moveFileToArchive(oldPate: string, newPath: string){
+    return await this.sftpClient.moveFileToArchive(oldPate, newPath)
+  }
+
+  async deleteFile(path: string){
+    return await this.sftpClient.deleteFile(path);
+  }
 }

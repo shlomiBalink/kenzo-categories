@@ -5,8 +5,9 @@ export interface EnvironmentVariables {
    *
    * Example: `/stocks`
    */
-  SFTP_STOCKS_FOLDER_PATH: string;
+   SFTP_ROOT: string;
 
+  SFTP_CATEGORIES_FOLDER_PATH: string; 
   STOCK_CSV_DELIMITER: string;
 }
 

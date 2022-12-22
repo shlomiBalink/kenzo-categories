@@ -2,28 +2,28 @@ import { when } from 'jest-when';
 import { ConfigService } from '@nestjs/config';
 import { Test, TestingModule } from '@nestjs/testing';
 import { CsvService } from '../csv/csv.service';
-import { DATABASE_CONNECTION } from '../database/constants';
-import { DatabaseService } from '../database/database.service';
+// import { DATABASE_CONNECTION } from '../database/constants';
+// import { DatabaseService } from '../database/database.service';
 import { SFTP_CLIENT } from '../sftp/constants';
 import { SftpService } from '../sftp/sftp.service';
-import { StockService } from './stock.service';
+import { CategoreyService } from './categorey.service';
 import {
   CsvStock,
   EnvironmentVariables as StockEnvironmentVariables,
   Stock,
-} from './stock.types.d';
+} from './categorey.types';
 import { SftpListFileOptions } from 'src/sftp/sftp.types.d';
 import { sftpClientMock } from '../../test/mocks/sftpClientMock';
 import { databaseConnectionMock } from '../../test/mocks/databaseConnectionMock';
 import { testEnvironmentVariables } from '../../test/data/environmentVariables';
-import { LoggerService } from '../../src/logger/logger.service';
+import { LoggerService } from '../logger/logger.service';
 import { loggerServiceMock } from '../../test/mocks/loggerServiceMock';
 
 describe('StockService', () => {
-  let service: StockService;
+  let service: CategoreyService;
   let configService: ConfigService;
   let sftpService: SftpService;
-  let databaseService: DatabaseService;
+  // let databaseService: DatabaseService;
   let csvService: CsvService;
 
   beforeEach(async () => {
@@ -32,24 +32,21 @@ describe('StockService', () => {
         { provide: LoggerService, useValue: loggerServiceMock },
         ConfigService,
         SftpService,
-        DatabaseService,
+        // DatabaseService,
         CsvService,
-        StockService,
+        CategoreyService,
         {
           provide: SFTP_CLIENT,
           useValue: sftpClientMock,
         },
-        {
-          provide: DATABASE_CONNECTION,
-          useValue: databaseConnectionMock,
-        },
+        
       ],
     }).compile();
 
-    service = module.get<StockService>(StockService);
+    service = module.get<CategoreyService>(CategoreyService);
     configService = module.get<ConfigService>(ConfigService);
     sftpService = module.get<SftpService>(SftpService);
-    databaseService = module.get<DatabaseService>(DatabaseService);
+    // databaseService = module.get<DatabaseService>(DatabaseService);
     csvService = module.get<CsvService>(CsvService);
   });
 
@@ -116,10 +113,7 @@ describe('StockService', () => {
       when(jest.spyOn(service as any, 'convertCsvStock'))
         .calledWith(stockFromCsv)
         .mockResolvedValue(stock);
-      when(jest.spyOn(databaseService, 'hashSet'))
-        .calledWith(stock.store, stock.productId, stock.quantity)
-        .mockResolvedValue();
-
+      
       await service.import();
 
       expect(configService.get).toHaveBeenCalledWith(
@@ -137,11 +131,7 @@ describe('StockService', () => {
         delimiter: (testEnvironmentVariables as StockEnvironmentVariables)
           .STOCK_CSV_DELIMITER,
       });
-      expect(databaseService.hashSet).toHaveBeenCalledWith(
-        stock.productId,
-        stock.store,
-        stock.quantity,
-      );
+    
     });
   });
 });
