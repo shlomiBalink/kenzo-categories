@@ -17,7 +17,9 @@
     "test": "jest",
     "test:watch": "jest --maxWorkers=1 --watch",
     "test:cov": "jest --maxWorkers=1 --coverage",
-    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand"
+    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+    "start:elastic":"cd scripts && bash kenzo-dev.sh",
+    "start:kibana":"cd scripts && bash kibana.sh"
   },
   "dependencies": {
     "@elastic/elasticsearch": "^8.5.0",

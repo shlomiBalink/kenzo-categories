@@ -18,7 +18,7 @@ export class ElasticService {
 
         const operations = categories.flatMap(doc => [{ index: { _index: indexName } }, doc])
 
-        const bulkResponse = await this.elasticsearchService.bulk({ refresh: true, operations })
+        const bulkResponse = await this.elasticsearchService.bulk({ refresh: false, operations })
 
     }
 

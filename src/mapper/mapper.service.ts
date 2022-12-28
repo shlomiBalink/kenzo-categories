@@ -1,27 +1,34 @@
 import { Injectable } from '@nestjs/common';
+import { LoggerService } from 'src/logger/logger.service';
 import { Categorey } from './mapper.types';
 
 @Injectable()
 export class MapperService {
+    private static readonly LOG_CONTEXT = 'MapperService';
 
-    languages = ['en', 'es', 'fr', 'ja'];
+    constructor(private loggerService: LoggerService){
+        this.loggerService.setContext(MapperService.LOG_CONTEXT);
+    }
+
+    languages = ['en', 'es', 'fr', 'ja', 'zh'];
 
     allCategoreyMap = new Map<string, Categorey[]>();
     elasticCategories = new Map<string, Categorey[]>();
 
-    map(obj: any): Map<string, Categorey[]> {
+    map(rawCategories: any): Map<string, Categorey[]> {
 
+        this.loggerService.debug('mapping starting');
 
-        obj.forEach((cat, i) => {
-            cat.names.forEach(name => {
+        rawCategories.forEach((categorey) => {
+            categorey.names.forEach((name, i) => {
                 this.createCategoreyIfNeeded(name.lang);
-                this.allCategoreyMap.get(name.lang).push(new Categorey(cat.store_region, cat.id, name.value, i));
+                this.allCategoreyMap.get(name.lang).push(new Categorey(categorey.store_region, categorey.id, name.value, i));
             });
 
-            cat.childs.forEach((child, j) => {
+            categorey.childs.forEach((child, j) => {
                 child.names.forEach(chName => {
                     this.createCategoreyIfNeeded(chName.lang);
-                    this.allCategoreyMap.get(chName.lang).push(new Categorey(cat.store_region, child.id, chName.value, j, cat.id));
+                    this.allCategoreyMap.get(chName.lang).push(new Categorey(categorey.store_region, child.id, chName.value, j, categorey.id));
                 });
             });
 
@@ -29,13 +36,15 @@ export class MapperService {
 
         this.languages.forEach(lang => {
             for (let [key, value] of Array.from(this.allCategoreyMap)) {
-                
-                if(key.includes(lang)){
+
+                if (key.includes(lang)) {
                     this.elasticCategories.set(`category_${key.split('_')[0]}`, value);
                 }
             }
         })
-        
+
+        this.loggerService.debug('mapping ends')
+
         return this.elasticCategories;
     }
 

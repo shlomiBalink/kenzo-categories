@@ -24,31 +24,35 @@ export class CategoreyService {
   }
 
   async import() {
-    // await this.sftpService.init();
+    await this.sftpService.init();
 
     const sftpRoot = await this.configService.get('SFTP_ROOT');
     const categoriesFolderPath = await this.configService.get('SFTP_CATEGORIES_FOLDER_PATH');
 
-    const productFolderFilesPath = (await this.sftpService.listFiles(`${sftpRoot}${categoriesFolderPath}`)).sort();
+    const categoriesFolderFilesPath = (await this.sftpService.listFiles(`${sftpRoot}${categoriesFolderPath}`)).sort();
 
-    const lastCategoriesFile = this.getLastestFile(productFolderFilesPath, "CATEGORIES");
+    if (!categoriesFolderFilesPath.length) {
+      this.loggerService.error("listing files failed")
+    }
 
-    // writeFileSync('src/temp-data/lastCategoriesFile.json', await this.sftpService.getFileContent(lastCategoriesFile));
+    const lastCategoriesFile = this.getLastestFile(categoriesFolderFilesPath, "CATEGORIES");
 
-    // this.sftpService.moveFileToArchive(`${lastCategoriesFile}`, `${sftpRoot}/Archive${categoriesFolderPath}`);
-
-    // this.sftpService.deleteFile(lastCategoriesFile);
+    // writeFileSync('src/temp-data/categories.json', await this.sftpService.getFileContent(lastCategoriesFile));
 
     // this.loggerService.debug('Files create in local memorey');
 
-    // await this.sftpService.closeConnection();
+    // await this.sftpService.moveFileToArchive(`${lastCategoriesFile}`, `${lastCategoriesFile.replace("/categorey/", "/categorey/archive/")}`);
 
-    const rawCategories = JSON.parse(readFileSync('src/temp-data/lastCategoriesFile.json', 'utf-8'));
+    // this.sftpService.deleteFile(lastCategoriesFile);
+
+    await this.sftpService.closeConnection();
+
+    const rawCategories = JSON.parse(readFileSync('src/temp-data/categories.json', 'utf-8'));
 
     const elasticCategories = this.mapperService.map(rawCategories);
 
     for (let [key, value] of Array.from(elasticCategories)) {
-       this.elasticService.pushToElastic(key, value)
+      await this.elasticService.pushToElastic(key, value)
     }
 
 

@@ -1,0 +1,1785 @@
+[
+    {
+        "store_region": "",
+        "id": "NEW",
+        "names": [
+            {
+                "value": "NEW",
+                "lang": "de_DE"
+            },
+            {
+                "value": "NEW",
+                "lang": "en_GB"
+            },
+            {
+                "value": "NEW",
+                "lang": "en_US"
+            },
+            {
+                "value": "NEW",
+                "lang": "es_ES"
+            },
+            {
+                "value": "NEW",
+                "lang": "fr_FR"
+            },
+            {
+                "value": "NEW",
+                "lang": "it_IT"
+            },
+            {
+                "value": "NEW",
+                "lang": "ja_JP"
+            },
+            {
+                "value": "NEW",
+                "lang": "ko_KR"
+            },
+            {
+                "value": "NEW",
+                "lang": "zh_CN"
+            }
+        ],
+        "childs": [
+            {
+                "id": "LIMITED_EDITION_POPPY",
+                "names": [
+                    {
+                        "value": "VARSITY TIGER",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "VARSITY TIGER",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "VARSITY TIGER",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "VARSITY TIGER",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "VARSITY TIGER",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "VARSITY TIGER",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "VARSITY TIGER",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "VARSITY TIGER",
+                        "lang": "ko_KR"
+                    },
+                    {
+                        "value": "VARSITY TIGER",
+                        "lang": "zh_CN"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "store_region": "",
+        "id": "101_CX",
+        "names": [
+            {
+                "value": "WOMEN",
+                "lang": "en_US"
+            },
+            {
+                "value": "WOMEN",
+                "lang": "de_DE"
+            },
+            {
+                "value": "FEMME",
+                "lang": "fr_FR"
+            },
+            {
+                "value": "WOMEN",
+                "lang": "en_GB"
+            },
+            {
+                "value": "WOMEN",
+                "lang": "ja_JP"
+            },
+            {
+                "value": "WOMEN",
+                "lang": "es_ES"
+            },
+            {
+                "value": "WOMEN",
+                "lang": "it_IT"
+            },
+            {
+                "value": "女士",
+                "lang": "zh_CN"
+            },
+            {
+                "value": "null",
+                "lang": "ko_KR"
+            }
+        ],
+        "childs": [
+            {
+                "id": "Denim",
+                "names": [
+                    {
+                        "value": "Denim",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "Denim",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "Denim",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "Denim",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "Denim",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "Denim",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "Denim",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "Denim",
+                        "lang": "ko_KR"
+                    },
+                    {
+                        "value": "Denim",
+                        "lang": "zh_CN"
+                    }
+                ]
+            },
+            {
+                "id": "sweatshirtF_CX",
+                "names": [
+                    {
+                        "value": "Sweatshirts",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "Sweatshirts",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "Sweatshirts",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "Sweatshirts",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "Sweatshirts",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "Sweatshirts",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "Sweatshirts",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "长袖运动衫",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            },
+            {
+                "id": "tshirtF_CX",
+                "names": [
+                    {
+                        "value": "T-shirts",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "T-shirts",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "T-shirts",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "T-shirts",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "T-shirts",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "T-shirts",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "T-shirts",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "T恤",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            },
+            {
+                "id": "1404_CX",
+                "names": [
+                    {
+                        "value": "Dresses",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "Dresses",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "Robes",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "Dresses",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "Dresses",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "Dresses",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "Dresses",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "连衣裙",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            },
+            {
+                "id": "1554_CX",
+                "names": [
+                    {
+                        "value": "Skirts",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "Skirts",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "Jupes",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "Skirts",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "Skirts",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "Skirts",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "Skirts",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "半身裙",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            },
+            {
+                "id": "vestes_femme_CX",
+                "names": [
+                    {
+                        "value": "Coats & Jackets",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "Coats & Jackets",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "Manteaux & Vestes",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "Coats & Jackets",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "Coats & Jackets",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "外套和夹克",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "Coats & Jackets",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "Coats & Jackets",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "Coats & Jackets",
+                        "lang": "ko_KR"
+                    }
+                ]
+            },
+            {
+                "id": "knitwear_CX",
+                "names": [
+                    {
+                        "value": "Knitwear",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "Knitwear",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "Maille",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "Knitwear",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "Knitwear",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "Knitwear",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "Knitwear",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "针织衫",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            },
+            {
+                "id": "Tops_Shirts_CX",
+                "names": [
+                    {
+                        "value": "Polos & Shirts",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "Polos & Shirts",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "Polos & Chemises",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "Polos & Shirts",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "Polos & Shirts",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "Polos & Shirts",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "Polos & Shirts",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "上衣和衬衫",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            },
+            {
+                "id": "1403_CX",
+                "names": [
+                    {
+                        "value": "Trousers & Shorts",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "Trousers & Shorts",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "Trousers & Shorts",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "Pantalons & Shorts",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "Trousers & Shorts",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "裤子",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "Trousers & Shorts",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "Trousers & Shorts",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "store_region": "",
+        "id": "100_CX",
+        "names": [
+            {
+                "value": "MEN",
+                "lang": "en_US"
+            },
+            {
+                "value": "MEN",
+                "lang": "de_DE"
+            },
+            {
+                "value": "HOMME",
+                "lang": "fr_FR"
+            },
+            {
+                "value": "MEN",
+                "lang": "en_GB"
+            },
+            {
+                "value": "MEN",
+                "lang": "ja_JP"
+            },
+            {
+                "value": "MEN",
+                "lang": "es_ES"
+            },
+            {
+                "value": "MEN",
+                "lang": "it_IT"
+            },
+            {
+                "value": "男士",
+                "lang": "zh_CN"
+            },
+            {
+                "value": "null",
+                "lang": "ko_KR"
+            }
+        ],
+        "childs": [
+            {
+                "id": "Denim_h",
+                "names": [
+                    {
+                        "value": "Denim",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "Denim",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "Denim",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "Denim",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "Denim",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "Denim",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "Denim",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "Denim",
+                        "lang": "ko_KR"
+                    },
+                    {
+                        "value": "Denim",
+                        "lang": "zh_CN"
+                    }
+                ]
+            },
+            {
+                "id": "sweatshirt_H_CX",
+                "names": [
+                    {
+                        "value": "Sweatshirts",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "Sweatshirts",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "Sweatshirts",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "Sweatshirts",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "Sweatshirts",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "Sweatshirts",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "Sweatshirts",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "长袖运动衫",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            },
+            {
+                "id": "tshirt_h_CX",
+                "names": [
+                    {
+                        "value": "T-shirts",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "T-shirts",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "T-shirts",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "T-shirts",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "T-shirts",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "T-shirts",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "T-shirts",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "T恤",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            },
+            {
+                "id": "polos_H_CX",
+                "names": [
+                    {
+                        "value": "Polos",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "Polos",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "Polos",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "Polos",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "Polos",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "Polos",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "Polos",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "POLO衫",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            },
+            {
+                "id": "Jackets_H_CX",
+                "names": [
+                    {
+                        "value": "Coats & Jackets",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "Coats & Jackets",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "Manteaux & Vestes",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "Coats & Jackets",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "Coats & Jackets",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "外套和夹克",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "Coats & Jackets",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "Coats & Jackets",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            },
+            {
+                "id": "Knitwear_H_CX",
+                "names": [
+                    {
+                        "value": "Sweaters & Cardigans",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "Sweaters & Cardigans",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "Pulls & Cardigans",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "Sweaters & Cardigans",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "Sweaters & Cardigans",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "Sweaters & Cardigans",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "Sweaters & Cardigans",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "毛衣和羊毛衫",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            },
+            {
+                "id": "Shirts_H_CX",
+                "names": [
+                    {
+                        "value": "Shirts",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "Shirts",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "Shirts",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "Chemises",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "Shirts",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "衬衫",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "Shirts",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "Shirts",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            },
+            {
+                "id": "Pants_and_shorts_H_CX",
+                "names": [
+                    {
+                        "value": "Trousers & Shorts",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "Trousers & Shorts",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "Pantalons & Shorts",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "Trousers & Shorts",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "Trousers & Shorts",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "Trousers & Shorts",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "Trousers & Shorts",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "裤子",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "store_region": "",
+        "id": "ACC_CX",
+        "names": [
+            {
+                "value": "ACCESSORIES",
+                "lang": "en_US"
+            },
+            {
+                "value": "ACCESSORIES",
+                "lang": "de_DE"
+            },
+            {
+                "value": "ACCESSOIRES",
+                "lang": "fr_FR"
+            },
+            {
+                "value": "ACCESSORIES",
+                "lang": "en_GB"
+            },
+            {
+                "value": "ACCESSORIES",
+                "lang": "ja_JP"
+            },
+            {
+                "value": "ACCESSORIES",
+                "lang": "es_ES"
+            },
+            {
+                "value": "ACCESSORIES",
+                "lang": "it_IT"
+            },
+            {
+                "value": "配饰",
+                "lang": "zh_CN"
+            },
+            {
+                "value": "null",
+                "lang": "ko_KR"
+            }
+        ],
+        "childs": [
+            {
+                "id": "acc_chaussures_femme_CX",
+                "names": [
+                    {
+                        "value": "WOMEN'S SHOES",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "WOMEN'S SHOES",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "CHAUSSURES FEMME",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "WOMEN'S SHOES",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "WOMEN'S SHOES",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "WOMEN'S SHOES",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "WOMEN'S SHOES",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "女士鞋履",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            },
+            {
+                "id": "acc_sacs_femme_CX",
+                "names": [
+                    {
+                        "value": "WOMEN'S BAGS",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "WOMEN'S BAGS",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "SACS FEMME",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "WOMEN'S BAGS",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "WOMEN'S BAGS",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "WOMEN'S BAGS",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "WOMEN'S BAGS",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "女士包袋",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            },
+            {
+                "id": "acc_chaussures_homme_CX",
+                "names": [
+                    {
+                        "value": "MEN'S SHOES",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "MEN'S SHOES",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "CHAUSSURES HOMME",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "MEN'S SHOES",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "MEN'S SHOES",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "MEN'S SHOES",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "MEN'S SHOES",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "男士鞋履",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            },
+            {
+                "id": "acc_sacs_homme_CX",
+                "names": [
+                    {
+                        "value": "MEN'S BAGS",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "MEN'S BAGS",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "SACS HOMME",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "MEN'S BAGS",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "MEN'S BAGS",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "MEN'S BAGS",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "MEN'S BAGS",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "男士包袋",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            },
+            {
+                "id": "acc_accessoires_unisex_CX",
+                "names": [
+                    {
+                        "value": "ACCESSORIES",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "ACCESSORIES",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "ACCESSOIRES",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "ACCESSORIES",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "ACCESSORIES",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "ACCESSORIES",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "ACCESSORIES",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "配饰",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ],
+                "childs": [
+                    {
+                        "id": "acc_petite_maro_CX",
+                        "names": [
+                            {
+                                "value": "Small Leather Goods",
+                                "lang": "en_US"
+                            },
+                            {
+                                "value": "Small Leather Goods",
+                                "lang": "de_DE"
+                            },
+                            {
+                                "value": "Petite Maroquinerie",
+                                "lang": "fr_FR"
+                            },
+                            {
+                                "value": "Small Leather Goods",
+                                "lang": "en_GB"
+                            },
+                            {
+                                "value": "Small Leather Goods",
+                                "lang": "ja_JP"
+                            },
+                            {
+                                "value": "Small Leather Goods",
+                                "lang": "es_ES"
+                            },
+                            {
+                                "value": "Small Leather Goods",
+                                "lang": "it_IT"
+                            },
+                            {
+                                "value": "小皮具",
+                                "lang": "zh_CN"
+                            },
+                            {
+                                "value": "null",
+                                "lang": "ko_KR"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "acc_hats_gloves_f_1_CX",
+                        "names": [
+                            {
+                                "value": "Caps & Bucket hats",
+                                "lang": "en_US"
+                            },
+                            {
+                                "value": "Caps & Bucket hats",
+                                "lang": "de_DE"
+                            },
+                            {
+                                "value": "Casquettes & Bobs",
+                                "lang": "fr_FR"
+                            },
+                            {
+                                "value": "Caps & Bucket hats",
+                                "lang": "en_GB"
+                            },
+                            {
+                                "value": "Caps & Bucket hats",
+                                "lang": "ja_JP"
+                            },
+                            {
+                                "value": "Caps & Bucket hats",
+                                "lang": "es_ES"
+                            },
+                            {
+                                "value": "Caps & Bucket hats",
+                                "lang": "it_IT"
+                            },
+                            {
+                                "value": "帽子",
+                                "lang": "zh_CN"
+                            },
+                            {
+                                "value": "null",
+                                "lang": "ko_KR"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "acc_foulards_CX",
+                        "names": [
+                            {
+                                "value": "Scarves & Bandanas",
+                                "lang": "en_US"
+                            },
+                            {
+                                "value": "Scarves & Bandanas",
+                                "lang": "de_DE"
+                            },
+                            {
+                                "value": "Bandanas & Echarpes",
+                                "lang": "fr_FR"
+                            },
+                            {
+                                "value": "Scarves & Bandanas",
+                                "lang": "en_GB"
+                            },
+                            {
+                                "value": "Scarves & Bandanas",
+                                "lang": "ja_JP"
+                            },
+                            {
+                                "value": "Scarves & Bandanas",
+                                "lang": "es_ES"
+                            },
+                            {
+                                "value": "Scarves & Bandanas",
+                                "lang": "it_IT"
+                            },
+                            {
+                                "value": "围巾",
+                                "lang": "zh_CN"
+                            },
+                            {
+                                "value": "null",
+                                "lang": "ko_KR"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "acc_iPhone_CX",
+                        "names": [
+                            {
+                                "value": "iPhone Cases",
+                                "lang": "en_US"
+                            },
+                            {
+                                "value": "iPhone Cases",
+                                "lang": "de_DE"
+                            },
+                            {
+                                "value": "Coques iPhone",
+                                "lang": "fr_FR"
+                            },
+                            {
+                                "value": "iPhone Cases",
+                                "lang": "en_GB"
+                            },
+                            {
+                                "value": "iPhone Cases",
+                                "lang": "ja_JP"
+                            },
+                            {
+                                "value": "iPhone Cases",
+                                "lang": "es_ES"
+                            },
+                            {
+                                "value": "iPhone Cases",
+                                "lang": "it_IT"
+                            },
+                            {
+                                "value": "iPhone手机壳",
+                                "lang": "zh_CN"
+                            },
+                            {
+                                "value": "null",
+                                "lang": "ko_KR"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Ties",
+                        "names": [
+                            {
+                                "value": "Ties",
+                                "lang": "de_DE"
+                            },
+                            {
+                                "value": "Ties",
+                                "lang": "en_GB"
+                            },
+                            {
+                                "value": "Ties",
+                                "lang": "en_US"
+                            },
+                            {
+                                "value": "Ties",
+                                "lang": "es_ES"
+                            },
+                            {
+                                "value": "Cravates",
+                                "lang": "fr_FR"
+                            },
+                            {
+                                "value": "Ties",
+                                "lang": "it_IT"
+                            },
+                            {
+                                "value": "Ties",
+                                "lang": "ja_JP"
+                            },
+                            {
+                                "value": "Ties",
+                                "lang": "ko_KR"
+                            },
+                            {
+                                "value": "Ties",
+                                "lang": "zh_CN"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Belts",
+                        "names": [
+                            {
+                                "value": "Belts",
+                                "lang": "de_DE"
+                            },
+                            {
+                                "value": "Belts",
+                                "lang": "en_GB"
+                            },
+                            {
+                                "value": "Belts",
+                                "lang": "en_US"
+                            },
+                            {
+                                "value": "Belts",
+                                "lang": "es_ES"
+                            },
+                            {
+                                "value": "Ceintures",
+                                "lang": "fr_FR"
+                            },
+                            {
+                                "value": "Belts",
+                                "lang": "it_IT"
+                            },
+                            {
+                                "value": "Belts",
+                                "lang": "ja_JP"
+                            },
+                            {
+                                "value": "Belts",
+                                "lang": "ko_KR"
+                            },
+                            {
+                                "value": "Belts",
+                                "lang": "zh_CN"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Socks",
+                        "names": [
+                            {
+                                "value": "Socks",
+                                "lang": "de_DE"
+                            },
+                            {
+                                "value": "Socks",
+                                "lang": "en_GB"
+                            },
+                            {
+                                "value": "Socks",
+                                "lang": "en_US"
+                            },
+                            {
+                                "value": "Socks",
+                                "lang": "es_ES"
+                            },
+                            {
+                                "value": "Chaussettes",
+                                "lang": "fr_FR"
+                            },
+                            {
+                                "value": "Socks",
+                                "lang": "it_IT"
+                            },
+                            {
+                                "value": "Socks",
+                                "lang": "ja_JP"
+                            },
+                            {
+                                "value": "Socks",
+                                "lang": "ko_KR"
+                            },
+                            {
+                                "value": "Socks",
+                                "lang": "zh_CN"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Eyewear",
+                        "names": [
+                            {
+                                "value": "Eyewear",
+                                "lang": "de_DE"
+                            },
+                            {
+                                "value": "Eyewear",
+                                "lang": "en_GB"
+                            },
+                            {
+                                "value": "Eyewear",
+                                "lang": "en_US"
+                            },
+                            {
+                                "value": "Eyewear",
+                                "lang": "es_ES"
+                            },
+                            {
+                                "value": "Lunettes de soleil",
+                                "lang": "fr_FR"
+                            },
+                            {
+                                "value": "Eyewear",
+                                "lang": "it_IT"
+                            },
+                            {
+                                "value": "Eyewear",
+                                "lang": "ja_JP"
+                            },
+                            {
+                                "value": "Eyewear",
+                                "lang": "ko_KR"
+                            },
+                            {
+                                "value": "Eyewear",
+                                "lang": "zh_CN"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Pins",
+                        "names": [
+                            {
+                                "value": "Pins",
+                                "lang": "de_DE"
+                            },
+                            {
+                                "value": "Pins",
+                                "lang": "en_GB"
+                            },
+                            {
+                                "value": "Pins",
+                                "lang": "en_US"
+                            },
+                            {
+                                "value": "Pins",
+                                "lang": "es_ES"
+                            },
+                            {
+                                "value": "Pins",
+                                "lang": "fr_FR"
+                            },
+                            {
+                                "value": "Pins",
+                                "lang": "it_IT"
+                            },
+                            {
+                                "value": "Pins",
+                                "lang": "ja_JP"
+                            },
+                            {
+                                "value": "Pins",
+                                "lang": "ko_KR"
+                            },
+                            {
+                                "value": "Pins",
+                                "lang": "zh_CN"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "store_region": "",
+        "id": "Tiger_Full_Collection_CX",
+        "names": [
+            {
+                "value": "THE TIGER",
+                "lang": "en_US"
+            },
+            {
+                "value": "THE TIGER",
+                "lang": "de_DE"
+            },
+            {
+                "value": "TIGRE",
+                "lang": "fr_FR"
+            },
+            {
+                "value": "THE TIGER",
+                "lang": "en_GB"
+            },
+            {
+                "value": "THE TIGER",
+                "lang": "ja_JP"
+            },
+            {
+                "value": "THE TIGER",
+                "lang": "es_ES"
+            },
+            {
+                "value": "THE TIGER",
+                "lang": "it_IT"
+            },
+            {
+                "value": "经典虎头",
+                "lang": "zh_CN"
+            },
+            {
+                "value": "null",
+                "lang": "ko_KR"
+            }
+        ],
+        "childs": [
+            {
+                "id": "Tiger_All_Women_CX",
+                "names": [
+                    {
+                        "value": "The Tiger Women",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "The Tiger",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "Tigre Femme",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "The Tiger Women",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "The Tiger",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "女士",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "The Tiger Women",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "The Tiger Women",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            },
+            {
+                "id": "Tiger_All_Men_CX",
+                "names": [
+                    {
+                        "value": "The Tiger Men",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "The Tiger",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "Tigre Homme",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "The Tiger Men",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "The Tiger",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "男士",
+                        "lang": "zh_CN"
+                    },
+                    {
+                        "value": "The Tiger Men",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "The Tiger Men",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "null",
+                        "lang": "ko_KR"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "store_region": "",
+        "id": "KIDS",
+        "names": [
+            {
+                "value": "KIDS",
+                "lang": "de_DE"
+            },
+            {
+                "value": "KIDS",
+                "lang": "en_GB"
+            },
+            {
+                "value": "KIDS",
+                "lang": "en_US"
+            },
+            {
+                "value": "KIDS",
+                "lang": "es_ES"
+            },
+            {
+                "value": "ENFANTS",
+                "lang": "fr_FR"
+            },
+            {
+                "value": "KIDS",
+                "lang": "it_IT"
+            },
+            {
+                "value": "KIDS",
+                "lang": "ja_JP"
+            },
+            {
+                "value": "KIDS",
+                "lang": "ko_KR"
+            },
+            {
+                "value": "KIDS",
+                "lang": "zh_CN"
+            }
+        ],
+        "childs": [
+            {
+                "id": "GIRLS",
+                "names": [
+                    {
+                        "value": "GIRLS",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "GIRLS",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "GIRLS",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "GIRLS",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "FILLE",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "GIRLS",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "GIRLS",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "GIRLS",
+                        "lang": "ko_KR"
+                    },
+                    {
+                        "value": "GIRLS",
+                        "lang": "zh_CN"
+                    }
+                ]
+            },
+            {
+                "id": "BOYS",
+                "names": [
+                    {
+                        "value": "BOYS",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "BOYS",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "BOYS",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "BOYS",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "GARÇON",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "BOYS",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "BOYS",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "BOYS",
+                        "lang": "ko_KR"
+                    },
+                    {
+                        "value": "BOYS",
+                        "lang": "zh_CN"
+                    }
+                ]
+            },
+            {
+                "id": "BABIES",
+                "names": [
+                    {
+                        "value": "BABIES",
+                        "lang": "de_DE"
+                    },
+                    {
+                        "value": "BABIES",
+                        "lang": "en_GB"
+                    },
+                    {
+                        "value": "BABIES",
+                        "lang": "en_US"
+                    },
+                    {
+                        "value": "BABIES",
+                        "lang": "es_ES"
+                    },
+                    {
+                        "value": "BÉBÉS",
+                        "lang": "fr_FR"
+                    },
+                    {
+                        "value": "BABIES",
+                        "lang": "it_IT"
+                    },
+                    {
+                        "value": "BABIES",
+                        "lang": "ja_JP"
+                    },
+                    {
+                        "value": "BABIES",
+                        "lang": "ko_KR"
+                    },
+                    {
+                        "value": "BABIES",
+                        "lang": "zh_CN"
+                    }
+                ]
+            }
+        ]
+    }
+]

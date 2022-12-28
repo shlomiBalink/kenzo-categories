@@ -23,6 +23,12 @@ export class SftpService {
     directoryPath: string,
     options: SftpListFileOptions = {},
   ): Promise<string[]> {
+    
+    if(!this.sftpClient.folderExist(directoryPath)){
+      this.loggerService.error("folder not exist");
+      return;
+    }
+
     const filePaths = await this.sftpClient.listFiles(directoryPath);
 
     const filePathsToReturn = [];
@@ -57,10 +63,12 @@ export class SftpService {
   }
 
   async moveFileToArchive(oldPate: string, newPath: string){
-    return await this.sftpClient.moveFileToArchive(oldPate, newPath)
+    await this.sftpClient.moveFileToArchive(oldPate, newPath);
+    this.loggerService.debug('File moved to archive');
   }
 
   async deleteFile(path: string){
-    return await this.sftpClient.deleteFile(path);
+    await this.sftpClient.deleteFile(path);
+    this.loggerService.debug('remote file deleted');
   }
 }

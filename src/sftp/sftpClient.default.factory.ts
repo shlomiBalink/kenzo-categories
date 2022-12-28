@@ -63,10 +63,20 @@ export class DefaultSftpClient implements SftpClient {
   }
 
   async moveFileToArchive(oldPath: string, newPath: string){
+    console.log(oldPath);
+    console.log(newPath);
+    
     return await this.client.rcopy(oldPath, newPath)
   }
 
   async deleteFile(path: string){
     return await this.client.delete(path, false);
+  }
+
+  async folderExist(folder: string){
+     
+    const folderExist = await this.client.exists(folder);
+    
+    return folderExist;
   }
 }

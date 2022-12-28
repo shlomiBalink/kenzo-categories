@@ -18,4 +18,5 @@ export interface SftpClient {
   closeConnection(): Promise<void>;
   moveFileToArchive(oldPath: string, newPath: string): Promise<string>;
   deleteFile(path: string): Promise<string>;
+  folderExist(folder: string);
 }
