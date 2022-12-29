@@ -10,12 +10,12 @@ export class Categorey {
         }
     }
 
-    country: string
-    id: string
-    parent_id?: string
-    name: string
+    country: string;
+    id: string;
+    parent_id?: string = "root";
+    name: string;
     isEmpty: boolean = false;
     showInMenu: boolean = true;
-    position: number
-
+    position: number;
+    
 }

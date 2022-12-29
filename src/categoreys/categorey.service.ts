@@ -1,7 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { LoggerService } from '../logger/logger.service';
-import { CsvService } from '../csv/csv.service';
 import { SftpService } from '../sftp/sftp.service';
 import { CsvStock, EnvironmentVariables, Stock } from './categorey.types';
 import { writeFileSync, readFileSync } from 'fs';
@@ -16,14 +15,13 @@ export class CategoreyService {
     private loggerService: LoggerService,
     private configService: ConfigService<EnvironmentVariables>,
     private sftpService: SftpService,
-    private csvService: CsvService,
     private mapperService: MapperService,
     private elasticService: ElasticService
   ) {
     this.loggerService.setContext(CategoreyService.LOG_CONTEXT);
   }
 
-  async import() {
+  async import() { 
     await this.sftpService.init();
 
     const sftpRoot = await this.configService.get('SFTP_ROOT');
@@ -49,14 +47,11 @@ export class CategoreyService {
 
     const rawCategories = JSON.parse(readFileSync('src/temp-data/categories.json', 'utf-8'));
 
-    const elasticCategories = this.mapperService.map(rawCategories);
+    const elasticCategories = this.mapperService.map(rawCategories);    
 
     for (let [key, value] of Array.from(elasticCategories)) {
       await this.elasticService.pushToElastic(key, value)
     }
-
-
-
 
   }
 

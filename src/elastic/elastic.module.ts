@@ -1,6 +1,7 @@
 import { HttpConnection } from '@elastic/elasticsearch';
 import { Module } from '@nestjs/common';
 import { ElasticsearchModule } from '@nestjs/elasticsearch';
+import { LoggerModule } from 'src/logger/logger.module';
 import { ElasticService } from './elastic.service';
 
 @Module({
@@ -16,6 +17,7 @@ import { ElasticService } from './elastic.service';
         rejectUnauthorized: false
       }
     }),
+    LoggerModule
   ],
   providers: [ElasticService],
   exports: [ElasticService]
