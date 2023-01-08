@@ -22,18 +22,18 @@ export class CategoreyService {
   }
 
   async import() { 
-    await this.sftpService.init();
+    // await this.sftpService.init();
 
-    const sftpRoot = await this.configService.get('SFTP_ROOT');
-    const categoriesFolderPath = await this.configService.get('SFTP_CATEGORIES_FOLDER_PATH');
+    // const sftpRoot = await this.configService.get('SFTP_ROOT');
+    // const categoriesFolderPath = await this.configService.get('SFTP_CATEGORIES_FOLDER_PATH');
 
-    const categoriesFolderFilesPath = (await this.sftpService.listFiles(`${sftpRoot}${categoriesFolderPath}`)).sort();
+    // const categoriesFolderFilesPath = (await this.sftpService.listFiles(`${sftpRoot}${categoriesFolderPath}`)).sort();
 
-    if (!categoriesFolderFilesPath.length) {
-      this.loggerService.error("listing files failed")
-    }
+    // if (!categoriesFolderFilesPath.length) {
+    //   this.loggerService.error("listing files failed")
+    // }
 
-    const lastCategoriesFile = this.getLastestFile(categoriesFolderFilesPath, "CATEGORIES");
+    // const lastCategoriesFile = this.getLastestFile(categoriesFolderFilesPath, "CATEGORIES");
 
     // writeFileSync('src/temp-data/categories.json', await this.sftpService.getFileContent(lastCategoriesFile));
 
@@ -43,7 +43,7 @@ export class CategoreyService {
 
     // this.sftpService.deleteFile(lastCategoriesFile);
 
-    await this.sftpService.closeConnection();
+    // await this.sftpService.closeConnection();
 
     const rawCategories = JSON.parse(readFileSync('src/temp-data/categories.json', 'utf-8'));
 
